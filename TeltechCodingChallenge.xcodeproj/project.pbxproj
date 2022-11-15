@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7930AB2829211C760056D150 /* PhoneTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB2729211C760056D150 /* PhoneTextField.swift */; };
+		7930AB2B29212E860056D150 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB2A29212E860056D150 /* UIViewController + Extension.swift */; };
+		7930AB5829213FFA0056D150 /* CallerData.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB5729213FFA0056D150 /* CallerData.docc */; };
+		7930AB5929213FFA0056D150 /* CallerData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7930AB5629213FFA0056D150 /* CallerData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7930AB5C29213FFA0056D150 /* CallerData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7930AB5429213FFA0056D150 /* CallerData.framework */; };
+		7930AB5D29213FFA0056D150 /* CallerData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7930AB5429213FFA0056D150 /* CallerData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7930AB62292140210056D150 /* CallerData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB1E292110E70056D150 /* CallerData.xcdatamodeld */; };
+		7930AB64292140410056D150 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB63292140410056D150 /* CoreDataStack.swift */; };
+		7930AB7429214F700056D150 /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB7329214F700056D150 /* CallDirectoryHandler.swift */; };
+		7930AB7829214F700056D150 /* CallDirectoryExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7930AB7129214F700056D150 /* CallDirectoryExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7930AB7C292152240056D150 /* CallerData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7930AB5429213FFA0056D150 /* CallerData.framework */; };
+		7930AB7D292152240056D150 /* CallerData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7930AB5429213FFA0056D150 /* CallerData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7930AB852922C0230056D150 /* CallerDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB822922C01A0056D150 /* CallerDetails+CoreDataProperties.swift */; };
+		7930AB862922C0230056D150 /* CallerDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB812922C01A0056D150 /* CallerDetails+CoreDataClass.swift */; };
+		79A34EB429180FE800622870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A34EB329180FE800622870 /* AppDelegate.swift */; };
+		79A34EB629180FE800622870 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A34EB529180FE800622870 /* SceneDelegate.swift */; };
+		79A34EB829180FE800622870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A34EB729180FE800622870 /* ViewController.swift */; };
+		79A34EBB29180FE800622870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A34EB929180FE800622870 /* Main.storyboard */; };
+		79A34EBD29180FEA00622870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A34EBC29180FEA00622870 /* Assets.xcassets */; };
+		79A34EC029180FEA00622870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A34EBE29180FEA00622870 /* LaunchScreen.storyboard */; };
+		79A34ECB29180FEB00622870 /* TeltechCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A34ECA29180FEB00622870 /* TeltechCodingChallengeTests.swift */; };
+		79DD1CB22922D48D0018A613 /* CallerDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD1CB12922D48D0018A613 /* CallerDetailService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7930AB5A29213FFA0056D150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A34EA829180FE800622870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7930AB5329213FFA0056D150;
+			remoteInfo = CallerData;
+		};
+		7930AB7629214F700056D150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A34EA829180FE800622870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7930AB7029214F700056D150;
+			remoteInfo = CallDirectoryExtension;
+		};
+		7930AB7E292152250056D150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A34EA829180FE800622870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7930AB5329213FFA0056D150;
+			remoteInfo = CallerData;
+		};
+		79A34EC729180FEB00622870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A34EA829180FE800622870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A34EAF29180FE800622870;
+			remoteInfo = TeltechCodingChallenge;
+		};
+		79A34ED129180FEB00622870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A34EA829180FE800622870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A34EAF29180FE800622870;
+			remoteInfo = TeltechCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7930AB3E29213D030056D150 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7930AB7829214F700056D150 /* CallDirectoryExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7930AB6129213FFA0056D150 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7930AB5D29213FFA0056D150 /* CallerData.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7930AB80292152250056D150 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7930AB7D292152240056D150 /* CallerData.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7930AB1F292110E70056D150 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		7930AB2729211C760056D150 /* PhoneTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTextField.swift; sourceTree = "<group>"; };
+		7930AB2A29212E860056D150 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		7930AB4629213E7E0056D150 /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
+		7930AB4829213E7E0056D150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7930AB5429213FFA0056D150 /* CallerData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CallerData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7930AB5629213FFA0056D150 /* CallerData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallerData.h; sourceTree = "<group>"; };
+		7930AB5729213FFA0056D150 /* CallerData.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CallerData.docc; sourceTree = "<group>"; };
+		7930AB63292140410056D150 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		7930AB652921415C0056D150 /* TeltechCodingChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeltechCodingChallenge.entitlements; sourceTree = "<group>"; };
+		7930AB6629214EEA0056D150 /* CallDirectoryExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CallDirectoryExtension.entitlements; sourceTree = "<group>"; };
+		7930AB7129214F700056D150 /* CallDirectoryExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallDirectoryExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7930AB7329214F700056D150 /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
+		7930AB7529214F700056D150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7930AB812922C01A0056D150 /* CallerDetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CallerDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7930AB822922C01A0056D150 /* CallerDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CallerDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		79A34EB029180FE800622870 /* TeltechCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeltechCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A34EB329180FE800622870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79A34EB529180FE800622870 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79A34EB729180FE800622870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79A34EBA29180FE800622870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79A34EBC29180FEA00622870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A34EBF29180FEA00622870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79A34EC129180FEA00622870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A34EC629180FEB00622870 /* TeltechCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeltechCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A34ECA29180FEB00622870 /* TeltechCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeltechCodingChallengeTests.swift; sourceTree = "<group>"; };
+		79A34ED029180FEB00622870 /* TeltechCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeltechCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DD1CB12922D48D0018A613 /* CallerDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerDetailService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7930AB5129213FFA0056D150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7930AB6E29214F700056D150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7930AB7C292152240056D150 /* CallerData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A34EAD29180FE800622870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7930AB5C29213FFA0056D150 /* CallerData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A34EC329180FEB00622870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A34ECD29180FEB00622870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7930AB2629211C5F0056D150 /* UiElements */ = {
+			isa = PBXGroup;
+			children = (
+				7930AB2729211C760056D150 /* PhoneTextField.swift */,
+			);
+			path = UiElements;
+			sourceTree = "<group>";
+		};
+		7930AB2929212E6E0056D150 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7930AB2A29212E860056D150 /* UIViewController + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7930AB4529213E7E0056D150 /* CallDirectoryExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7930AB6629214EEA0056D150 /* CallDirectoryExtension.entitlements */,
+				7930AB4629213E7E0056D150 /* CallDirectoryHandler.swift */,
+				7930AB4829213E7E0056D150 /* Info.plist */,
+			);
+			path = CallDirectoryExtension;
+			sourceTree = "<group>";
+		};
+		7930AB5529213FFA0056D150 /* CallerData */ = {
+			isa = PBXGroup;
+			children = (
+				7930AB872922C1280056D150 /* Model */,
+				7930AB5629213FFA0056D150 /* CallerData.h */,
+				7930AB1E292110E70056D150 /* CallerData.xcdatamodeld */,
+				7930AB5729213FFA0056D150 /* CallerData.docc */,
+				7930AB63292140410056D150 /* CoreDataStack.swift */,
+				79DD1CB12922D48D0018A613 /* CallerDetailService.swift */,
+			);
+			path = CallerData;
+			sourceTree = "<group>";
+		};
+		7930AB7229214F700056D150 /* CallDirectoryExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7930AB7329214F700056D150 /* CallDirectoryHandler.swift */,
+				7930AB7529214F700056D150 /* Info.plist */,
+			);
+			path = CallDirectoryExtension;
+			sourceTree = "<group>";
+		};
+		7930AB872922C1280056D150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7930AB812922C01A0056D150 /* CallerDetails+CoreDataClass.swift */,
+				7930AB822922C01A0056D150 /* CallerDetails+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79A34EA729180FE800622870 = {
+			isa = PBXGroup;
+			children = (
+				79A34EB229180FE800622870 /* TeltechCodingChallenge */,
+				79A34EC929180FEB00622870 /* TeltechCodingChallengeTests */,
+				7930AB4529213E7E0056D150 /* CallDirectoryExtension */,
+				7930AB5529213FFA0056D150 /* CallerData */,
+				7930AB7229214F700056D150 /* CallDirectoryExtension */,
+				79A34EB129180FE800622870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A34EB129180FE800622870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A34EB029180FE800622870 /* TeltechCodingChallenge.app */,
+				79A34EC629180FEB00622870 /* TeltechCodingChallengeTests.xctest */,
+				79A34ED029180FEB00622870 /* TeltechCodingChallengeUITests.xctest */,
+				7930AB5429213FFA0056D150 /* CallerData.framework */,
+				7930AB7129214F700056D150 /* CallDirectoryExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A34EB229180FE800622870 /* TeltechCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				7930AB652921415C0056D150 /* TeltechCodingChallenge.entitlements */,
+				7930AB2929212E6E0056D150 /* Extensions */,
+				7930AB2629211C5F0056D150 /* UiElements */,
+				79A34EB329180FE800622870 /* AppDelegate.swift */,
+				79A34EB529180FE800622870 /* SceneDelegate.swift */,
+				79A34EB729180FE800622870 /* ViewController.swift */,
+				79A34EB929180FE800622870 /* Main.storyboard */,
+				79A34EBC29180FEA00622870 /* Assets.xcassets */,
+				79A34EBE29180FEA00622870 /* LaunchScreen.storyboard */,
+				79A34EC129180FEA00622870 /* Info.plist */,
+			);
+			path = TeltechCodingChallenge;
+			sourceTree = "<group>";
+		};
+		79A34EC929180FEB00622870 /* TeltechCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				79A34ECA29180FEB00622870 /* TeltechCodingChallengeTests.swift */,
+			);
+			path = TeltechCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7930AB4F29213FFA0056D150 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7930AB5929213FFA0056D150 /* CallerData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7930AB5329213FFA0056D150 /* CallerData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7930AB5E29213FFA0056D150 /* Build configuration list for PBXNativeTarget "CallerData" */;
+			buildPhases = (
+				7930AB4F29213FFA0056D150 /* Headers */,
+				7930AB5029213FFA0056D150 /* Sources */,
+				7930AB5129213FFA0056D150 /* Frameworks */,
+				7930AB5229213FFA0056D150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallerData;
+			productName = CallerData;
+			productReference = 7930AB5429213FFA0056D150 /* CallerData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7930AB7029214F700056D150 /* CallDirectoryExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7930AB7929214F710056D150 /* Build configuration list for PBXNativeTarget "CallDirectoryExtension" */;
+			buildPhases = (
+				7930AB6D29214F700056D150 /* Sources */,
+				7930AB6E29214F700056D150 /* Frameworks */,
+				7930AB6F29214F700056D150 /* Resources */,
+				7930AB80292152250056D150 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7930AB7F292152250056D150 /* PBXTargetDependency */,
+			);
+			name = CallDirectoryExtension;
+			productName = CallDirectoryExtension;
+			productReference = 7930AB7129214F700056D150 /* CallDirectoryExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		79A34EAF29180FE800622870 /* TeltechCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A34EDA29180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallenge" */;
+			buildPhases = (
+				79A34EAC29180FE800622870 /* Sources */,
+				79A34EAD29180FE800622870 /* Frameworks */,
+				79A34EAE29180FE800622870 /* Resources */,
+				7930AB3E29213D030056D150 /* Embed Foundation Extensions */,
+				7930AB6129213FFA0056D150 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7930AB5B29213FFA0056D150 /* PBXTargetDependency */,
+				7930AB7729214F700056D150 /* PBXTargetDependency */,
+			);
+			name = TeltechCodingChallenge;
+			productName = TeltechCodingChallenge;
+			productReference = 79A34EB029180FE800622870 /* TeltechCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79A34EC529180FEB00622870 /* TeltechCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A34EDD29180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeTests" */;
+			buildPhases = (
+				79A34EC229180FEB00622870 /* Sources */,
+				79A34EC329180FEB00622870 /* Frameworks */,
+				79A34EC429180FEB00622870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A34EC829180FEB00622870 /* PBXTargetDependency */,
+			);
+			name = TeltechCodingChallengeTests;
+			productName = TeltechCodingChallengeTests;
+			productReference = 79A34EC629180FEB00622870 /* TeltechCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A34ECF29180FEB00622870 /* TeltechCodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A34EE029180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeUITests" */;
+			buildPhases = (
+				79A34ECC29180FEB00622870 /* Sources */,
+				79A34ECD29180FEB00622870 /* Frameworks */,
+				79A34ECE29180FEB00622870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A34ED229180FEB00622870 /* PBXTargetDependency */,
+			);
+			name = TeltechCodingChallengeUITests;
+			productName = TeltechCodingChallengeUITests;
+			productReference = 79A34ED029180FEB00622870 /* TeltechCodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A34EA829180FE800622870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7930AB5329213FFA0056D150 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					7930AB7029214F700056D150 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					79A34EAF29180FE800622870 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					79A34EC529180FEB00622870 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 79A34EAF29180FE800622870;
+					};
+					79A34ECF29180FEB00622870 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 79A34EAF29180FE800622870;
+					};
+				};
+			};
+			buildConfigurationList = 79A34EAB29180FE800622870 /* Build configuration list for PBXProject "TeltechCodingChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A34EA729180FE800622870;
+			productRefGroup = 79A34EB129180FE800622870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A34EAF29180FE800622870 /* TeltechCodingChallenge */,
+				79A34EC529180FEB00622870 /* TeltechCodingChallengeTests */,
+				79A34ECF29180FEB00622870 /* TeltechCodingChallengeUITests */,
+				7930AB5329213FFA0056D150 /* CallerData */,
+				7930AB7029214F700056D150 /* CallDirectoryExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7930AB5229213FFA0056D150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7930AB6F29214F700056D150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A34EAE29180FE800622870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A34EC029180FEA00622870 /* LaunchScreen.storyboard in Resources */,
+				79A34EBD29180FEA00622870 /* Assets.xcassets in Resources */,
+				79A34EBB29180FE800622870 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A34EC429180FEB00622870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A34ECE29180FEB00622870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7930AB5029213FFA0056D150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DD1CB22922D48D0018A613 /* CallerDetailService.swift in Sources */,
+				7930AB862922C0230056D150 /* CallerDetails+CoreDataClass.swift in Sources */,
+				7930AB64292140410056D150 /* CoreDataStack.swift in Sources */,
+				7930AB852922C0230056D150 /* CallerDetails+CoreDataProperties.swift in Sources */,
+				7930AB62292140210056D150 /* CallerData.xcdatamodeld in Sources */,
+				7930AB5829213FFA0056D150 /* CallerData.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7930AB6D29214F700056D150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7930AB7429214F700056D150 /* CallDirectoryHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A34EAC29180FE800622870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A34EB829180FE800622870 /* ViewController.swift in Sources */,
+				7930AB2B29212E860056D150 /* UIViewController + Extension.swift in Sources */,
+				7930AB2829211C760056D150 /* PhoneTextField.swift in Sources */,
+				79A34EB429180FE800622870 /* AppDelegate.swift in Sources */,
+				79A34EB629180FE800622870 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A34EC229180FEB00622870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A34ECB29180FEB00622870 /* TeltechCodingChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A34ECC29180FEB00622870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7930AB5B29213FFA0056D150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7930AB5329213FFA0056D150 /* CallerData */;
+			targetProxy = 7930AB5A29213FFA0056D150 /* PBXContainerItemProxy */;
+		};
+		7930AB7729214F700056D150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7930AB7029214F700056D150 /* CallDirectoryExtension */;
+			targetProxy = 7930AB7629214F700056D150 /* PBXContainerItemProxy */;
+		};
+		7930AB7F292152250056D150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7930AB5329213FFA0056D150 /* CallerData */;
+			targetProxy = 7930AB7E292152250056D150 /* PBXContainerItemProxy */;
+		};
+		79A34EC829180FEB00622870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A34EAF29180FE800622870 /* TeltechCodingChallenge */;
+			targetProxy = 79A34EC729180FEB00622870 /* PBXContainerItemProxy */;
+		};
+		79A34ED229180FEB00622870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A34EAF29180FE800622870 /* TeltechCodingChallenge */;
+			targetProxy = 79A34ED129180FEB00622870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79A34EB929180FE800622870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A34EBA29180FE800622870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79A34EBE29180FEA00622870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A34EBF29180FEA00622870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7930AB5F29213FFA0056D150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.CallerData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7930AB6029213FFA0056D150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.CallerData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7930AB7A29214F710056D150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = CallDirectoryExtension/CallDirectoryExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallDirectoryExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallDirectoryExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallenge.CallDirectoryExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7930AB7B29214F710056D150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = CallDirectoryExtension/CallDirectoryExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallDirectoryExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallDirectoryExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallenge.CallDirectoryExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79A34ED829180FEB00622870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79A34ED929180FEB00622870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A34EDB29180FEB00622870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TeltechCodingChallenge/TeltechCodingChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TeltechCodingChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A34EDC29180FEB00622870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TeltechCodingChallenge/TeltechCodingChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TeltechCodingChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79A34EDE29180FEB00622870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeltechCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeltechCodingChallenge";
+			};
+			name = Debug;
+		};
+		79A34EDF29180FEB00622870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeltechCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeltechCodingChallenge";
+			};
+			name = Release;
+		};
+		79A34EE129180FEB00622870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeltechCodingChallenge;
+			};
+			name = Debug;
+		};
+		79A34EE229180FEB00622870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H97JWMSXJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeltechCodingChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7930AB5E29213FFA0056D150 /* Build configuration list for PBXNativeTarget "CallerData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7930AB5F29213FFA0056D150 /* Debug */,
+				7930AB6029213FFA0056D150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7930AB7929214F710056D150 /* Build configuration list for PBXNativeTarget "CallDirectoryExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7930AB7A29214F710056D150 /* Debug */,
+				7930AB7B29214F710056D150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A34EAB29180FE800622870 /* Build configuration list for PBXProject "TeltechCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A34ED829180FEB00622870 /* Debug */,
+				79A34ED929180FEB00622870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A34EDA29180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A34EDB29180FEB00622870 /* Debug */,
+				79A34EDC29180FEB00622870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A34EDD29180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A34EDE29180FEB00622870 /* Debug */,
+				79A34EDF29180FEB00622870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A34EE029180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A34EE129180FEB00622870 /* Debug */,
+				79A34EE229180FEB00622870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7930AB1E292110E70056D150 /* CallerData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7930AB1F292110E70056D150 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 7930AB1F292110E70056D150 /* CoreDataModel.xcdatamodel */;
+			path = CallerData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79A34EA829180FE800622870 /* Project object */;
+}
