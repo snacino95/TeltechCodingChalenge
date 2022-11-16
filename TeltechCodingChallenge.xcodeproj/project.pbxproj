@@ -128,6 +128,7 @@
 		79A4EE3229254257000E63A2 /* TeltechCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeltechCodingChallengeTests.swift; sourceTree = "<group>"; };
 		79A4EE392925433A000E63A2 /* TeltechCodingChalengeModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeltechCodingChalengeModelTests.swift; sourceTree = "<group>"; };
 		79A4EE3B29254347000E63A2 /* PrepareForTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareForTesting.swift; sourceTree = "<group>"; };
+		79A4EE3D2925453A000E63A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		79DD1CB12922D48D0018A613 /* CallerDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerDetailService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -251,6 +252,7 @@
 		79A34EA729180FE800622870 = {
 			isa = PBXGroup;
 			children = (
+				79A4EE3D2925453A000E63A2 /* README.md */,
 				7930AB7229214F700056D150 /* CallDirectoryExtension */,
 				79A34EB229180FE800622870 /* TeltechCodingChallenge */,
 				7930AB4529213E7E0056D150 /* CallDirectoryExtension */,

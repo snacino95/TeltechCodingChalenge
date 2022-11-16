@@ -6,9 +6,10 @@
 //
 
 import XCTest
+@testable import TeltechCodingChalengeModel
 
 final class TeltechCodingChallengeTests: XCTestCase {
-
+  override class func setUp() {
     
-
+  }
 }

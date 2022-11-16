@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import TeltechCodingChallenge
 @testable import TeltechCodingChalengeModel
 
 
