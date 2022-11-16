@@ -6,8 +6,8 @@
 //
 
 import UIKit
-import CallerData
 import CallKit
+import TeltechCodingChalengeModel
 
 enum ViewControllerErrors: Error {
   case invalidPhoneNumber
@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
   @IBOutlet weak var textField: PhoneTextField!
   
   var callersData: [CallerDetail] = []
-  var callerDataService = CallerDetailService()
+  var callerDataService: CallerDetailService!
   var selectedStatus: CallerStatus {
     get {
       guard let status = CallerStatus(rawValue: Int16(segmentedControl.selectedSegmentIndex)) else { fatalError("Not handled") }
@@ -31,6 +31,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { fatalError("Could not get app delegate")}
+    guard let coreDataStack = appDelegate.coreDataStack else {  fatalError("Could not get core data stack") }
+    
+    callerDataService = CallerDetailService(coreDataStack: coreDataStack)
+    
     activityIndicator.isHidden = true
     segmentedControl.addTarget(self, action: #selector(segmentedControlValueChanged), for: .valueChanged)
     fetchCallersAndUpdateUi()
@@ -97,7 +102,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
   
   func fetchCallersAndUpdateUi() {
     textField.text = ""
-    callersData = callerDataService.fetchCallersWith(status: selectedStatus)
+    callersData = callerDataService.fetchCallersWhere(status: selectedStatus)
     tableView.reloadData()
   }
   

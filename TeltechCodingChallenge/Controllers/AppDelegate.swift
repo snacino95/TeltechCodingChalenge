@@ -7,14 +7,15 @@
 
 import UIKit
 import CallKit
-import CallerData
+import TeltechCodingChalengeModel
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-  let callerDetailService = CallerDetailService()
+  
+  var coreDataStack: CoreDataStack?
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    
+      coreDataStack = CoreDataStack(containerType: .inMemory)
     return true
   }
 
@@ -22,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func applicationWillTerminate(_ application: UIApplication) {
     do {
-      try callerDetailService.saveChanges()
+      try coreDataStack?.context.save()
     } catch {
       //Log error
       print(error.localizedDescription)

@@ -7,11 +7,11 @@
 
 import Foundation
 import CallKit
-import CallerData
+import TeltechCodingChalengeModel
 
 class CallDirectoryHandler: CXCallDirectoryProvider {
   
-  var callerDetailService =  CallerDetailService()
+  var callerDetailService =  CallerDetailService(coreDataStack: CoreDataStack())
   
   override func beginRequest(with context: CXCallDirectoryExtensionContext) {
     context.delegate = self
@@ -37,7 +37,7 @@ class CallDirectoryHandler: CXCallDirectoryProvider {
     //
     // Numbers must be provided in numerically ascending order.
   
-    let allPhoneNumbers = callerDetailService.fetchCallersWith(status: .blocked).map { $0.phoneNumber }
+    let allPhoneNumbers = callerDetailService.fetchCallersWhere(status: .blocked).map { $0.phoneNumber }
     
     for phoneNumber in allPhoneNumbers {
       context.addBlockingEntry(withNextSequentialPhoneNumber: phoneNumber)
@@ -48,12 +48,12 @@ class CallDirectoryHandler: CXCallDirectoryProvider {
     // Retrieve any changes to the set of phone numbers to block from data store. For optimal performance and memory usage when there are many phone numbers,
     // consider only loading a subset of numbers at a given time and using autorelease pool(s) to release objects allocated during each batch of numbers which are loaded.
     
-    let phoneNumbersToAdd = callerDetailService.fetchCallersWith(status: .blocked, andUpdatedAt: since, andDidRemove: false).map { $0.phoneNumber }
+    let phoneNumbersToAdd = callerDetailService.fetchCallersWhere(status: .blocked, updatedAt: since, didRemove: false).map { $0.phoneNumber }
     for phoneNumber in phoneNumbersToAdd {
       context.addBlockingEntry(withNextSequentialPhoneNumber: phoneNumber)
     }
     
-    let phoneNumbersToRemove = callerDetailService.fetchCallersWith(status: .blocked, andUpdatedAt: since, andDidRemove: true).map { $0.phoneNumber }
+    let phoneNumbersToRemove = callerDetailService.fetchCallersWhere(status: .blocked, updatedAt: since, didRemove: true).map { $0.phoneNumber }
 
     for phoneNumber in phoneNumbersToRemove {
       context.removeBlockingEntry(withPhoneNumber: phoneNumber)
@@ -67,7 +67,7 @@ class CallDirectoryHandler: CXCallDirectoryProvider {
     // consider only loading a subset of numbers at a given time and using autorelease pool(s) to release objects allocated during each batch of numbers which are loaded.
     //
     // Numbers must be provided in numerically ascending order.
-    let callersDetail = callerDetailService.fetchCallersWith(status: .spam)
+    let callersDetail = callerDetailService.fetchCallersWhere(status: .spam)
     
     for callerDetail in callersDetail {
       context.addIdentificationEntry(withNextSequentialPhoneNumber: callerDetail.phoneNumber, label: callerDetail.details ?? "Not Provided")
@@ -78,13 +78,13 @@ class CallDirectoryHandler: CXCallDirectoryProvider {
     // Retrieve any changes to the set of phone numbers to identify (and their identification labels) from data store. For optimal performance and memory usage when there are many phone numbers,
     // consider only loading a subset of numbers at a given time and using autorelease pool(s) to release objects allocated during each batch of numbers which are loaded.
     
-    let callersDetailToAdd = callerDetailService.fetchCallersWith(status: .spam, andUpdatedAt: since, andDidRemove: false)
+    let callersDetailToAdd = callerDetailService.fetchCallersWhere(status: .spam, updatedAt: since, didRemove: false)
     
     for callerDetail in callersDetailToAdd {
       context.addIdentificationEntry(withNextSequentialPhoneNumber: callerDetail.phoneNumber, label: callerDetail.details ?? "Not Provided")
     }
     
-    let callersDetailToRemove = callerDetailService.fetchCallersWith(status: .spam, andUpdatedAt: since, andDidRemove: true)
+    let callersDetailToRemove = callerDetailService.fetchCallersWhere(status: .spam, updatedAt: since, didRemove: true)
     
     for callerDetail in callersDetailToRemove {
       context.removeIdentificationEntry(withPhoneNumber: callerDetail.phoneNumber)

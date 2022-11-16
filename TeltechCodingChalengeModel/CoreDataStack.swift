@@ -9,12 +9,11 @@ import Foundation
 import CoreData
 
 public class CoreDataStack {
-  var modelString: String
-  var containerType: NSPersistentStore.StoreType
   
-  public static let shared = CoreDataStack()
+  private var modelString: String
+  private var containerType: NSPersistentStore.StoreType
   
-  public init(modelString: String = "CallerData", containerType: NSPersistentStore.StoreType = .sqlite ) {
+  public init(modelString: String = "TeltechCodingChalengeModel", containerType: NSPersistentStore.StoreType = .sqlite ) {
     self.modelString = modelString
     self.containerType = containerType
   }

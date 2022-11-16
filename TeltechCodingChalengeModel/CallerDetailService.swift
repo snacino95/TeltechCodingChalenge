@@ -22,11 +22,11 @@ public class CallerDetailService {
     }
   }
   
-  public init(coreDataStack: CoreDataStack = CoreDataStack.shared) {
+  public init(coreDataStack: CoreDataStack) {
     self.coreDataStack = coreDataStack
   }
   
-  public func fetchCallersWith(status: CallerStatus? = nil, andUpdatedAt: Date? = nil, andDidRemove: Bool? = nil) -> [CallerDetail] {
+  public func fetchCallersWhere(status: CallerStatus? = nil, updatedAt: Date? = nil, didRemove: Bool? = nil) -> [CallerDetail] {
     let fetchRequest = CallerDetail.fetchRequest()
     
     var subPredicates: [NSPredicate] = []
@@ -36,12 +36,12 @@ public class CallerDetailService {
       subPredicates.append(predicate)
     }
     
-    if let safeUpdatedAt = andUpdatedAt {
+    if let safeUpdatedAt = updatedAt {
       let predicate = NSPredicate(format: "updatedAt > %@", safeUpdatedAt as NSDate)
       subPredicates.append(predicate)
     }
     
-    if let safeDidRemove = andDidRemove {
+    if let safeDidRemove = didRemove {
       let predicate = NSPredicate(format: "didRemove = %d", safeDidRemove)
       subPredicates.append(predicate)
     }
@@ -80,7 +80,7 @@ public class CallerDetailService {
   
   public func deleteCallersDetailsWhere(status: CallerStatus? = nil, andUpdatedAt: Date? = nil, andDidRemove: Bool? = nil) {
     
-    let callersDetail = fetchCallersWith(status: status, andUpdatedAt: andUpdatedAt, andDidRemove: andDidRemove)
+    let callersDetail = fetchCallersWhere(status: status, updatedAt: andUpdatedAt, didRemove: andDidRemove)
     
     for callerDetail in callersDetail {
       context.delete(callerDetail)
