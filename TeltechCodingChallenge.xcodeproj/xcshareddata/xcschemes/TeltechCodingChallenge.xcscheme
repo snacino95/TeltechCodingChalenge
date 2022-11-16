@@ -61,6 +61,17 @@
                ReferencedContainer = "container:TeltechCodingChallenge.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "79A4EE1F292540C4000E63A2"
+               BuildableName = "TeltechCodingChallengeTest.xctest"
+               BlueprintName = "TeltechCodingChallengeTest"
+               ReferencedContainer = "container:TeltechCodingChallenge.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

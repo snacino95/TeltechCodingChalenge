@@ -11,8 +11,6 @@
 		7930AB2B29212E860056D150 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB2A29212E860056D150 /* UIViewController + Extension.swift */; };
 		7930AB7429214F700056D150 /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB7329214F700056D150 /* CallDirectoryHandler.swift */; };
 		7930AB7829214F700056D150 /* CallDirectoryExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7930AB7129214F700056D150 /* CallDirectoryExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		793EAEC429244A1A0020AEBE /* TeltechCodingChalengeModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793EAEBC29244A190020AEBE /* TeltechCodingChalengeModel.framework */; };
-		793EAECB29244A1A0020AEBE /* TeltechCodingChalengeModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793EAECA29244A1A0020AEBE /* TeltechCodingChalengeModelTests.swift */; };
 		793EAECC29244A1A0020AEBE /* TeltechCodingChalengeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 793EAEBE29244A1A0020AEBE /* TeltechCodingChalengeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		793EAECF29244A1A0020AEBE /* TeltechCodingChalengeModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793EAEBC29244A190020AEBE /* TeltechCodingChalengeModel.framework */; };
 		793EAED029244A1A0020AEBE /* TeltechCodingChalengeModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 793EAEBC29244A190020AEBE /* TeltechCodingChalengeModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -23,14 +21,13 @@
 		793EAEE029244C0E0020AEBE /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB63292140410056D150 /* CoreDataStack.swift */; };
 		793EAEE129244C100020AEBE /* CallerDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD1CB12922D48D0018A613 /* CallerDetailService.swift */; };
 		793EAEE229244C2C0020AEBE /* TeltechCodingChalengeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7930AB1E292110E70056D150 /* TeltechCodingChalengeModel.xcdatamodeld */; };
-		793EAEE6292454810020AEBE /* PrepareForTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793EAEE5292454810020AEBE /* PrepareForTesting.swift */; };
 		79A34EB429180FE800622870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A34EB329180FE800622870 /* AppDelegate.swift */; };
 		79A34EB629180FE800622870 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A34EB529180FE800622870 /* SceneDelegate.swift */; };
 		79A34EB829180FE800622870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A34EB729180FE800622870 /* ViewController.swift */; };
 		79A34EBB29180FE800622870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A34EB929180FE800622870 /* Main.storyboard */; };
 		79A34EBD29180FEA00622870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A34EBC29180FEA00622870 /* Assets.xcassets */; };
 		79A34EC029180FEA00622870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A34EBE29180FEA00622870 /* LaunchScreen.storyboard */; };
-		79A34ECB29180FEB00622870 /* TeltechCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A34ECA29180FEB00622870 /* TeltechCodingChallengeTests.swift */; };
+		79A4EE3329254257000E63A2 /* TeltechCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A4EE3229254257000E63A2 /* TeltechCodingChallengeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,20 +37,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7930AB7029214F700056D150;
 			remoteInfo = CallDirectoryExtension;
-		};
-		793EAEC529244A1A0020AEBE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79A34EA829180FE800622870 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 793EAEBB29244A190020AEBE;
-			remoteInfo = TeltechCodingChalengeModel;
-		};
-		793EAEC729244A1A0020AEBE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79A34EA829180FE800622870 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79A34EAF29180FE800622870;
-			remoteInfo = TeltechCodingChallenge;
 		};
 		793EAECD29244A1A0020AEBE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -69,14 +52,7 @@
 			remoteGlobalIDString = 793EAEBB29244A190020AEBE;
 			remoteInfo = TeltechCodingChalengeModel;
 		};
-		79A34EC729180FEB00622870 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79A34EA829180FE800622870 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79A34EAF29180FE800622870;
-			remoteInfo = TeltechCodingChallenge;
-		};
-		79A34ED129180FEB00622870 /* PBXContainerItemProxy */ = {
+		79A4EE3429254257000E63A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 79A34EA829180FE800622870 /* Project object */;
 			proxyType = 1;
@@ -138,9 +114,6 @@
 		7930AB822922C01A0056D150 /* CallerDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CallerDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		793EAEBC29244A190020AEBE /* TeltechCodingChalengeModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TeltechCodingChalengeModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		793EAEBE29244A1A0020AEBE /* TeltechCodingChalengeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeltechCodingChalengeModel.h; sourceTree = "<group>"; };
-		793EAEC329244A1A0020AEBE /* TeltechCodingChalengeModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeltechCodingChalengeModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		793EAECA29244A1A0020AEBE /* TeltechCodingChalengeModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeltechCodingChalengeModelTests.swift; sourceTree = "<group>"; };
-		793EAEE5292454810020AEBE /* PrepareForTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareForTesting.swift; sourceTree = "<group>"; };
 		79A34EB029180FE800622870 /* TeltechCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeltechCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A34EB329180FE800622870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79A34EB529180FE800622870 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,9 +122,8 @@
 		79A34EBC29180FEA00622870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A34EBF29180FEA00622870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A34EC129180FEA00622870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79A34EC629180FEB00622870 /* TeltechCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeltechCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79A34ECA29180FEB00622870 /* TeltechCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeltechCodingChallengeTests.swift; sourceTree = "<group>"; };
-		79A34ED029180FEB00622870 /* TeltechCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeltechCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A4EE3029254257000E63A2 /* TeltechCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeltechCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A4EE3229254257000E63A2 /* TeltechCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeltechCodingChallengeTests.swift; sourceTree = "<group>"; };
 		79DD1CB12922D48D0018A613 /* CallerDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerDetailService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,14 +143,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		793EAEC029244A1A0020AEBE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				793EAEC429244A1A0020AEBE /* TeltechCodingChalengeModel.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79A34EAD29180FE800622870 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,14 +151,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79A34EC329180FEB00622870 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79A34ECD29180FEB00622870 /* Frameworks */ = {
+		79A4EE2D29254257000E63A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,15 +218,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		793EAEC929244A1A0020AEBE /* TeltechCodingChalengeModelTests */ = {
-			isa = PBXGroup;
-			children = (
-				793EAECA29244A1A0020AEBE /* TeltechCodingChalengeModelTests.swift */,
-				793EAEE5292454810020AEBE /* PrepareForTesting.swift */,
-			);
-			path = TeltechCodingChalengeModelTests;
-			sourceTree = "<group>";
-		};
 		793EAED729244B8A0020AEBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,10 +249,9 @@
 			children = (
 				7930AB7229214F700056D150 /* CallDirectoryExtension */,
 				79A34EB229180FE800622870 /* TeltechCodingChallenge */,
-				79A34EC929180FEB00622870 /* TeltechCodingChallengeTests */,
 				7930AB4529213E7E0056D150 /* CallDirectoryExtension */,
 				7930AB5529213FFA0056D150 /* TeltechCodingChalengeModel */,
-				793EAEC929244A1A0020AEBE /* TeltechCodingChalengeModelTests */,
+				79A4EE3129254257000E63A2 /* TeltechCodingChallengeTests */,
 				79A34EB129180FE800622870 /* Products */,
 				793EAED729244B8A0020AEBE /* Frameworks */,
 			);
@@ -314,11 +261,9 @@
 			isa = PBXGroup;
 			children = (
 				79A34EB029180FE800622870 /* TeltechCodingChallenge.app */,
-				79A34EC629180FEB00622870 /* TeltechCodingChallengeTests.xctest */,
-				79A34ED029180FEB00622870 /* TeltechCodingChallengeUITests.xctest */,
 				7930AB7129214F700056D150 /* CallDirectoryExtension.appex */,
 				793EAEBC29244A190020AEBE /* TeltechCodingChalengeModel.framework */,
-				793EAEC329244A1A0020AEBE /* TeltechCodingChalengeModelTests.xctest */,
+				79A4EE3029254257000E63A2 /* TeltechCodingChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,10 +282,10 @@
 			path = TeltechCodingChallenge;
 			sourceTree = "<group>";
 		};
-		79A34EC929180FEB00622870 /* TeltechCodingChallengeTests */ = {
+		79A4EE3129254257000E63A2 /* TeltechCodingChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				79A34ECA29180FEB00622870 /* TeltechCodingChallengeTests.swift */,
+				79A4EE3229254257000E63A2 /* TeltechCodingChallengeTests.swift */,
 			);
 			path = TeltechCodingChallengeTests;
 			sourceTree = "<group>";
@@ -396,25 +341,6 @@
 			productReference = 793EAEBC29244A190020AEBE /* TeltechCodingChalengeModel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		793EAEC229244A1A0020AEBE /* TeltechCodingChalengeModelTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 793EAED429244A1A0020AEBE /* Build configuration list for PBXNativeTarget "TeltechCodingChalengeModelTests" */;
-			buildPhases = (
-				793EAEBF29244A1A0020AEBE /* Sources */,
-				793EAEC029244A1A0020AEBE /* Frameworks */,
-				793EAEC129244A1A0020AEBE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				793EAEC629244A1A0020AEBE /* PBXTargetDependency */,
-				793EAEC829244A1A0020AEBE /* PBXTargetDependency */,
-			);
-			name = TeltechCodingChalengeModelTests;
-			productName = TeltechCodingChalengeModelTests;
-			productReference = 793EAEC329244A1A0020AEBE /* TeltechCodingChalengeModelTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		79A34EAF29180FE800622870 /* TeltechCodingChallenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79A34EDA29180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallenge" */;
@@ -436,41 +362,23 @@
 			productReference = 79A34EB029180FE800622870 /* TeltechCodingChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		79A34EC529180FEB00622870 /* TeltechCodingChallengeTests */ = {
+		79A4EE2F29254257000E63A2 /* TeltechCodingChallengeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79A34EDD29180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeTests" */;
+			buildConfigurationList = 79A4EE3629254258000E63A2 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeTests" */;
 			buildPhases = (
-				79A34EC229180FEB00622870 /* Sources */,
-				79A34EC329180FEB00622870 /* Frameworks */,
-				79A34EC429180FEB00622870 /* Resources */,
+				79A4EE2C29254257000E63A2 /* Sources */,
+				79A4EE2D29254257000E63A2 /* Frameworks */,
+				79A4EE2E29254257000E63A2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				79A34EC829180FEB00622870 /* PBXTargetDependency */,
+				79A4EE3529254257000E63A2 /* PBXTargetDependency */,
 			);
 			name = TeltechCodingChallengeTests;
 			productName = TeltechCodingChallengeTests;
-			productReference = 79A34EC629180FEB00622870 /* TeltechCodingChallengeTests.xctest */;
+			productReference = 79A4EE3029254257000E63A2 /* TeltechCodingChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		79A34ECF29180FEB00622870 /* TeltechCodingChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 79A34EE029180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeUITests" */;
-			buildPhases = (
-				79A34ECC29180FEB00622870 /* Sources */,
-				79A34ECD29180FEB00622870 /* Frameworks */,
-				79A34ECE29180FEB00622870 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				79A34ED229180FEB00622870 /* PBXTargetDependency */,
-			);
-			name = TeltechCodingChallengeUITests;
-			productName = TeltechCodingChallengeUITests;
-			productReference = 79A34ED029180FEB00622870 /* TeltechCodingChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -488,18 +396,10 @@
 					793EAEBB29244A190020AEBE = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
-					793EAEC229244A1A0020AEBE = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 79A34EAF29180FE800622870;
-					};
 					79A34EAF29180FE800622870 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
-					79A34EC529180FEB00622870 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 79A34EAF29180FE800622870;
-					};
-					79A34ECF29180FEB00622870 = {
+					79A4EE2F29254257000E63A2 = {
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = 79A34EAF29180FE800622870;
 					};
@@ -519,11 +419,9 @@
 			projectRoot = "";
 			targets = (
 				79A34EAF29180FE800622870 /* TeltechCodingChallenge */,
-				79A34EC529180FEB00622870 /* TeltechCodingChallengeTests */,
-				79A34ECF29180FEB00622870 /* TeltechCodingChallengeUITests */,
 				7930AB7029214F700056D150 /* CallDirectoryExtension */,
 				793EAEBB29244A190020AEBE /* TeltechCodingChalengeModel */,
-				793EAEC229244A1A0020AEBE /* TeltechCodingChalengeModelTests */,
+				79A4EE2F29254257000E63A2 /* TeltechCodingChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -543,13 +441,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		793EAEC129244A1A0020AEBE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79A34EAE29180FE800622870 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -560,14 +451,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79A34EC429180FEB00622870 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79A34ECE29180FEB00622870 /* Resources */ = {
+		79A4EE2E29254257000E63A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -597,15 +481,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		793EAEBF29244A1A0020AEBE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				793EAEE6292454810020AEBE /* PrepareForTesting.swift in Sources */,
-				793EAECB29244A1A0020AEBE /* TeltechCodingChalengeModelTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79A34EAC29180FE800622870 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -618,18 +493,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79A34EC229180FEB00622870 /* Sources */ = {
+		79A4EE2C29254257000E63A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A34ECB29180FEB00622870 /* TeltechCodingChallengeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79A34ECC29180FEB00622870 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				79A4EE3329254257000E63A2 /* TeltechCodingChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,16 +509,6 @@
 			target = 7930AB7029214F700056D150 /* CallDirectoryExtension */;
 			targetProxy = 7930AB7629214F700056D150 /* PBXContainerItemProxy */;
 		};
-		793EAEC629244A1A0020AEBE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 793EAEBB29244A190020AEBE /* TeltechCodingChalengeModel */;
-			targetProxy = 793EAEC529244A1A0020AEBE /* PBXContainerItemProxy */;
-		};
-		793EAEC829244A1A0020AEBE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 79A34EAF29180FE800622870 /* TeltechCodingChallenge */;
-			targetProxy = 793EAEC729244A1A0020AEBE /* PBXContainerItemProxy */;
-		};
 		793EAECE29244A1A0020AEBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 793EAEBB29244A190020AEBE /* TeltechCodingChalengeModel */;
@@ -661,15 +519,10 @@
 			target = 793EAEBB29244A190020AEBE /* TeltechCodingChalengeModel */;
 			targetProxy = 793EAEDA29244B8A0020AEBE /* PBXContainerItemProxy */;
 		};
-		79A34EC829180FEB00622870 /* PBXTargetDependency */ = {
+		79A4EE3529254257000E63A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 79A34EAF29180FE800622870 /* TeltechCodingChallenge */;
-			targetProxy = 79A34EC729180FEB00622870 /* PBXContainerItemProxy */;
-		};
-		79A34ED229180FEB00622870 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 79A34EAF29180FE800622870 /* TeltechCodingChallenge */;
-			targetProxy = 79A34ED129180FEB00622870 /* PBXContainerItemProxy */;
+			targetProxy = 79A4EE3429254257000E63A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -804,42 +657,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		793EAED529244A1A0020AEBE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H97JWMSXJ3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChalengeModelTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeltechCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeltechCodingChallenge";
-			};
-			name = Debug;
-		};
-		793EAED629244A1A0020AEBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H97JWMSXJ3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChalengeModelTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeltechCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeltechCodingChallenge";
 			};
 			name = Release;
 		};
@@ -1017,16 +834,14 @@
 			};
 			name = Release;
 		};
-		79A34EDE29180FEB00622870 /* Debug */ = {
+		79A4EE3729254258000E63A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H97JWMSXJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1037,16 +852,14 @@
 			};
 			name = Debug;
 		};
-		79A34EDF29180FEB00622870 /* Release */ = {
+		79A4EE3829254258000E63A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H97JWMSXJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1054,42 +867,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeltechCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeltechCodingChallenge";
-			};
-			name = Release;
-		};
-		79A34EE129180FEB00622870 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H97JWMSXJ3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TeltechCodingChallenge;
-			};
-			name = Debug;
-		};
-		79A34EE229180FEB00622870 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H97JWMSXJ3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Sergio.TeltechCodingChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TeltechCodingChallenge;
 			};
 			name = Release;
 		};
@@ -1114,15 +891,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		793EAED429244A1A0020AEBE /* Build configuration list for PBXNativeTarget "TeltechCodingChalengeModelTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				793EAED529244A1A0020AEBE /* Debug */,
-				793EAED629244A1A0020AEBE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		79A34EAB29180FE800622870 /* Build configuration list for PBXProject "TeltechCodingChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1141,20 +909,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79A34EDD29180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeTests" */ = {
+		79A4EE3629254258000E63A2 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79A34EDE29180FEB00622870 /* Debug */,
-				79A34EDF29180FEB00622870 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		79A34EE029180FEB00622870 /* Build configuration list for PBXNativeTarget "TeltechCodingChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				79A34EE129180FEB00622870 /* Debug */,
-				79A34EE229180FEB00622870 /* Release */,
+				79A4EE3729254258000E63A2 /* Debug */,
+				79A4EE3829254258000E63A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
