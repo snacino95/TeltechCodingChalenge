@@ -28,6 +28,8 @@
 		79A34EBD29180FEA00622870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A34EBC29180FEA00622870 /* Assets.xcassets */; };
 		79A34EC029180FEA00622870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A34EBE29180FEA00622870 /* LaunchScreen.storyboard */; };
 		79A4EE3329254257000E63A2 /* TeltechCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A4EE3229254257000E63A2 /* TeltechCodingChallengeTests.swift */; };
+		79A4EE3A2925433A000E63A2 /* TeltechCodingChalengeModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A4EE392925433A000E63A2 /* TeltechCodingChalengeModelTests.swift */; };
+		79A4EE3C29254347000E63A2 /* PrepareForTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A4EE3B29254347000E63A2 /* PrepareForTesting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +126,8 @@
 		79A34EC129180FEA00622870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A4EE3029254257000E63A2 /* TeltechCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeltechCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A4EE3229254257000E63A2 /* TeltechCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeltechCodingChallengeTests.swift; sourceTree = "<group>"; };
+		79A4EE392925433A000E63A2 /* TeltechCodingChalengeModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeltechCodingChalengeModelTests.swift; sourceTree = "<group>"; };
+		79A4EE3B29254347000E63A2 /* PrepareForTesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareForTesting.swift; sourceTree = "<group>"; };
 		79DD1CB12922D48D0018A613 /* CallerDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerDetailService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -285,7 +289,9 @@
 		79A4EE3129254257000E63A2 /* TeltechCodingChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				79A4EE3B29254347000E63A2 /* PrepareForTesting.swift */,
 				79A4EE3229254257000E63A2 /* TeltechCodingChallengeTests.swift */,
+				79A4EE392925433A000E63A2 /* TeltechCodingChalengeModelTests.swift */,
 			);
 			path = TeltechCodingChallengeTests;
 			sourceTree = "<group>";
@@ -497,6 +503,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A4EE3A2925433A000E63A2 /* TeltechCodingChalengeModelTests.swift in Sources */,
+				79A4EE3C29254347000E63A2 /* PrepareForTesting.swift in Sources */,
 				79A4EE3329254257000E63A2 /* TeltechCodingChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

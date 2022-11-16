@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var coreDataStack: CoreDataStack?
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-      coreDataStack = CoreDataStack(containerType: .inMemory)
+      coreDataStack = CoreDataStack(containerType: .sqlite)
     return true
   }
 
